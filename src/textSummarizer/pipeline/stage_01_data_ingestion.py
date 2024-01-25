@@ -13,3 +13,8 @@ class DataIngestionTrainingPipeline:
         data_ingestion = DataIngestion(config=data_ingestion_config)
         data_ingestion.download_file()
         data_ingestion.extract_zip_file()
+
+# Create an instance of the DataIngestionTrainingPipeline class
+pipeline = DataIngestionTrainingPipeline()
+# Call the main method on the instance
+pipeline.main()
