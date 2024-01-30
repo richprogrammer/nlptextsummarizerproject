@@ -1,6 +1,13 @@
+import os
+import sys
+
+# Add the 'src' directory to the Python path
+project_root = os.path.dirname(os.path.abspath(__file__))
+src_path = os.path.join(project_root, 'src')
+sys.path.append(src_path)
+
 from textSummarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from textSummarizer.logging import logger
-
 
 STAGE_NAME = "Data Ingestion stage"
 try:
