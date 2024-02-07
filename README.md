@@ -47,7 +47,7 @@
 
 2. AmazonEC2FullAccess
 3. Create ECR repo to store/save docker image
-- Save the URL: 557860237513.dkr.ecr.us-east-2.amazonaws.com/text-s
+- Save the URI: 557860237513.dkr.ecr.us-east-2.amazonaws.com/text-s
 4. Create EC2 machine (Ubuntu)
 5. Open EC2 and Install docker in EC2 Machine:
 #optinal
@@ -72,7 +72,7 @@ AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
 
-AWS_REGION = us-east-1
+AWS_REGION = us-east-2
 
 AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
